@@ -15,7 +15,7 @@ import DeveloperModeIcon from '@mui/icons-material/DeveloperMode';
 export const logo = 'https://i.ibb.co/s9Qys2j/logo.png';
 
 export const categories = [
-  { name: 'New', icon: <HomeIcon />, },
+  { name: 'New', icon: <HomeIcon />, }, 
   { name: 'Music', icon: <MusicNoteIcon /> },
   { name: 'Coding', icon: <CodeIcon />, },
   { name: 'Education', icon: <SchoolIcon />, },
@@ -32,3 +32,10 @@ export const categories = [
   { name: 'Gym', icon: <FitnessCenterIcon />, },
   { name: 'Crypto', icon: <DeveloperModeIcon />, },
 ];
+ 
+export const demoThumbnailUrl = 'https://images3.alphacoders.com/198/198007.jpg';
+export const demoChannelUrl = 'channel/UCwolwTPDNMSzHV-HRii4gFQ';
+export const demoVideoUrl = '/video/vmfg97UCzso';
+export const demoChannelTitle = 'Crystal Castles official';
+export const demoVideoTitle = 'Crystal Castles - Char';
+export const demoProfilePicture = 'https://c-fa.cdn.smule.com/rs-s66/arr/58/62/62ec4c9d-26e9-4eea-8927-ff391f65b5a6_1024.jpg'
