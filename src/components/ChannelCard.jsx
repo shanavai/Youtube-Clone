@@ -5,7 +5,8 @@ import { Link } from 'react-router-dom';
 import { demoProfilePicture } from '../utilities/constants';
  
 
-const ChannelCard = ({channelDetail}) => (
+const ChannelCard = ({channelDetail, marginTop}) => (
+   
   <Box
   sx={{
     boxShadow: 'none',
@@ -16,15 +17,17 @@ const ChannelCard = ({channelDetail}) => (
     width: { xs: '356px', md: '320px' },
     height: '326px',
     margin: 'auto',
+    marginTop
   }}>
-    <Link to={`/channel/${channelDetail?.id?.channelId}`}>
+     <Link to={`/channel/${channelDetail?.snippet?.channelId}`}>
+      {console.log('channelDetail', channelDetail)}
       <CardContent sx={{ display: 'flex', flexDirection: 'column', justifyContent: 'center', textAlign: 'center', color: '#fff' }}>
-      <CardMedia
+        <CardMedia
           image={channelDetail?.snippet?.thumbnails?.high?.url || demoProfilePicture}
           alt={channelDetail?.snippet?.title}
           sx={{ borderRadius: '50%', height: '180px', width: '180px', mb: 2, border: '1px solid #e3e3e3' }}
         />
-         <Typography variant="h6">
+        <Typography variant="h6">
           {channelDetail?.snippet?.title}{' '}
           <CheckCircleIcon sx={{ fontSize: '14px', color: 'gray', ml: '5px' }} />
         </Typography>
@@ -36,5 +39,6 @@ const ChannelCard = ({channelDetail}) => (
       </CardContent>
     </Link>
   </Box>
-)
+);
+
 export default ChannelCard;
