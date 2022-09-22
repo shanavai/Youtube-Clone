@@ -33,9 +33,9 @@ export const categories = [
   { name: 'Crypto', icon: <DeveloperModeIcon />, },
 ];
  
-export const demoThumbnailUrl = 'https://images3.alphacoders.com/198/198007.jpg';
+export const demoThumbnailUrl = 'https://t4.ftcdn.net/jpg/00/65/77/27/360_F_65772719_A1UV5kLi5nCEWI0BNLLiFaBPEkUbv5Fv.jpg';
 export const demoChannelUrl = 'channel/UCwolwTPDNMSzHV-HRii4gFQ';
 export const demoVideoUrl = '/video/vmfg97UCzso';
-export const demoChannelTitle = 'Crystal Castles official';
-export const demoVideoTitle = 'Crystal Castles - Char';
-export const demoProfilePicture = 'https://c-fa.cdn.smule.com/rs-s66/arr/58/62/62ec4c9d-26e9-4eea-8927-ff391f65b5a6_1024.jpg'
+export const demoChannelTitle = 'Unavailable';
+export const demoVideoTitle = 'Video has been deleted';
+export const demoProfilePicture = 'https://t4.ftcdn.net/jpg/00/65/77/27/360_F_65772719_A1UV5kLi5nCEWI0BNLLiFaBPEkUbv5Fv.jpg'
